@@ -151,3 +151,7 @@
 	fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
         fxtag = mi_240522
+[submodule "ccs_config"]
+	path = ccs_config
+	url = git@github.com:fabioviola-cmcc/LIMES_ccs_config.git
+	branch = 20240715
