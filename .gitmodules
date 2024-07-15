@@ -25,14 +25,6 @@
 #              It is intended for use of github workflows to test commits to protected
 #              repository branches.
 #
-
-
-[submodule "ccs_config"]
-	path = ccs_config
-	url = https://github.com/ESMCI/ccs_config_cesm.git
-	fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config_cesm0.0.109
-        fxrequired = ToplevelRequired
         
 [submodule "share"]
 	path = share
