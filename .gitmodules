@@ -33,12 +33,12 @@
         fxtag = share1.0.19
         fxrequired = ToplevelRequired
 
-[submodule "cime"]
-	path = cime
-	url = https://github.com/ESMCI/cime
-	fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime6.0.246
-        fxrequired = ToplevelRequired
+# [submodule "cime"]
+# 	path = cime
+# 	url = https://github.com/ESMCI/cime
+# 	fxDONOTUSEurl = https://github.com/ESMCI/cime
+#         fxtag = cime6.0.246
+#         fxrequired = ToplevelRequired
 
 [submodule "mct"]
 	path = libraries/mct
@@ -151,7 +151,13 @@
 	fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
         fxtag = mi_240522
+
 [submodule "ccs_config"]
 	path = ccs_config
 	url = git@github.com:fabioviola-cmcc/LIMES_ccs_config.git
 	branch = 20240715
+
+[submodule "cime"]
+	path = cime
+	url = https://github.com/fabioviola-cmcc/LIMES-cime.git
+	branch = main
