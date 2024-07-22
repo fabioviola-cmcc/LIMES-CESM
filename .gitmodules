@@ -161,3 +161,7 @@
 	path = cime
 	url = https://github.com/fabioviola-cmcc/LIMES-cime.git
 	branch = main
+
+[submodule "components/nemo"]
+	path = components/nemo
+	url = git@github.com:fabioviola-cmcc/LIMES_NEMO.git
